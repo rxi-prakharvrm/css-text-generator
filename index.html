@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatting App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="layout-container">
+
+        <div class="header top-styling-menu">
+
+            <!-- Selecting the font family -->
+            <select class="select-font select-20rem" title="Select a Font">
+                <option>--Font--</option>
+                <option>Default</option>
+                <option>Alef</option>
+                <option>Algerian</option>
+                <option>Amiri</option>
+                <option>Aquire</option>
+                <option>Arial</option>
+                <option>Arial Rounded MT</option>
+                <option>Arial Unicode MS</option>
+                <option>Arimo</option>
+                <option>Bookman Old Style</option>
+                <option>Calibri</option>
+                <option>Cambria</option>
+                <option>Century Gothic</option>
+                <option>Elephant</option>
+                <option>Flamenco</option>
+                <option>Georgia</option>
+                <option>Gill Sans MT</option>
+                <option>Glacial Indifference</option>
+                <option>Helvetica</option>
+                <option>Impact</option>
+                <option>KoHo</option>
+                <option>Liberation Sans</option>
+                <option>Liberation Serif</option>
+                <option>Lucida Console</option>
+                <option>Lucida Sans</option>
+                <option>Magneto</option>
+                <option>MS Reference Sans Serif</option>
+                <option>NORWESTER</option>
+                <option>Noto Sans</option>
+                <option>Noto Sans Lao</option>
+                <option>Open Sans</option>
+                <option>Poppins</option>
+                <option>Segoe UI</option>
+                <option>Times New Roman</option>
+                <option>Tahoma</option>
+                <option>Verdana</option>
+            </select>
+
+            <!-- Selecting the font size -->
+            <select class="font-size height-padding" title="Select Font Size">
+                <option>Default</option>
+                <option>20</option>
+                <option>25</option>
+                <option>30</option>
+                <option>35</option>
+                <option>40</option>
+                <option>45</option>
+                <option selected>50</option>
+                <option>55</option>
+                <option>60</option>
+                <option>65</option>
+                <option>70</option>
+                <option>75</option>
+                <option>80</option>
+                <option>85</option>
+                <option>90</option>
+                <option>95</option>
+                <option>100</option>
+                <option>105</option>
+                <option>110</option>
+                <option>115</option>
+                <option>120</option>
+            </select>
+
+            <!-- Selecting the text color -->
+            <select class="text-color select-20rem" title="Select a Text Color">
+                <option>--Color--</option>
+                <option>Default</option>
+                <option>AliceBlue</option>
+                <option>AntiqueWhite</option>
+                <option>Aqua</option>
+                <option>Aquamarine</option>
+                <option>Azure</option>
+                <option>Beige</option>
+                <option>Bisque</option>
+                <option>Black</option>
+                <option>BlanchedAlmond</option>
+                <option>Blue</option>
+                <option>BlueViolet</option>
+                <option>Brown</option>
+                <option>BurlyWood</option>
+                <option>CadetBlue</option>
+                <option>Chartreuse</option>
+                <option>Chocolate</option>
+                <option>Coral</option>
+                <option>CornflowerBlue</option>
+                <option>Cornsilk</option>
+                <option>Crimson</option>
+                <option>Cyan</option>
+                <option>DarkBlue</option>
+                <option>DarkCyan</option>
+                <option>DarkGoldenRod</option>
+                <option>DarkGray</option>
+                <option>DarkGrey</option>
+                <option>DarkGreen</option>
+                <option>GarkKhaki</option>
+                <option>DarkOliveGreen</option>
+                <option>DarkOrange</option>
+                <option>DarkOrchid</option>
+                <option>DarkRed</option>
+                <option>DarkSalmon</option>
+                <option>DarkSeaGreen</option>
+                <option>DarkSlateBlue</option>
+                <option>DarkSlateGray</option>
+                <option>DarkSlateGrey</option>
+                <option>DarkTurquoise</option>
+                <option>DarkViolet</option>
+                <option>DeepPink</option>
+                <option>DeepSkyBlue</option>
+                <option>DimGray</option>
+                <option>DimGrey</option>
+                <option>DodgerBlue</option>
+                <option>FireBrick</option>
+                <option>FloralWhite</option>
+                <option>ForestGreen</option>
+                <option>Fuchsia</option>
+                <option>Gainsboro</option>
+                <option>GhostWhite</option>
+                <option>Gold</option>
+                <option>goldenRod</option>
+                <option>Gray</option>
+                <option>Grey</option>
+                <option>Green</option>
+                <option>GreenYellow</option>
+                <option>HoneyDew</option>
+                <option>HotPink</option>
+                <option>IndianRed</option>
+                <option>Indigo</option>
+                <option>Ivory</option>
+                <option>Khaki</option>
+                <option>Lavender</option>
+                <option>LavenderBlush</option>
+                <option>LawnGreen</option>
+                <option>LemonChiffon</option>
+                <option>LightBlue</option>
+                <option>LightCoral</option>
+                <option>LightCyan</option>
+                <option>LightGoldenRodYellow</option>
+                <option>LightGray</option>
+                <option>LightGrey</option>
+                <option>LightGreen</option>
+                <option>LightPink</option>
+                <option>LightSalmon</option>
+                <option>LightSeaGreen</option>
+                <option>LightSkyBlue</option>
+                <option>LightSlateGray</option>
+                <option>LightSlateGrey</option>
+                <option>LightSteelBlue</option>
+                <option>LightYellow</option>
+                <option>Lime</option>
+                <option>LimeGreen</option>
+                <option>Linen</option>
+                <option>Magenta</option>
+                <option>Maroon</option>
+                <option>MediumBlue</option>
+                <option>MediumOrchid</option>
+                <option>MediumPurple</option>
+                <option>MediumSeaGreen</option>
+                <option>MediumSlateBlue</option>
+                <option>MediumSpringGreen</option>
+                <option>MediumTurquoise</option>
+                <option>MediumVioletRed</option>
+                <option>MidnightBlue</option>
+                <option>MintCream</option>
+                <option>MistyRose</option>
+                <option>Moccasin</option>
+                <option>NavajoWhite</option>
+                <option>Navy</option>
+                <option>OldLace</option>
+                <option>Olive</option>
+                <option>OliveDrab</option>
+                <option>Orange</option>
+                <option>OrangeRed</option>
+                <option>Orchid</option>
+                <option>PaleGoldenRod</option>
+                <option>PaleGreen</option>
+                <option>PaleTurquoise</option>
+                <option>PaleVioletRed</option>
+                <option>PapayaWhip</option>
+                <option>PeachPuff</option>
+                <option>Peru</option>
+                <option>Pink</option>
+                <option>Plum</option>
+                <option>PowderBlue</option>
+                <option>Purple</option>
+                <option>RebeccaPurple</option>
+                <option>Red</option>
+                <option>RosyBrown</option>
+                <option>RoyalBlue</option>
+                <option>SaddleBrown</option>
+                <option>Salmon</option>
+                <option>SandyBrown</option>
+                <option>SeaGreen</option>
+                <option>SeaShell</option>
+                <option>Sienna</option>
+                <option>Silver</option>
+                <option>SkyBlue</option>
+                <option>SlateBlue</option>
+                <option>SlateGray</option>
+                <option>SlateGrey</option>
+                <option>Snow</option>
+                <option>SpringGreen</option>
+                <option>SteelBlue</option>
+                <option>Tan</option>
+                <option>Teal</option>
+                <option>Tomato</option>
+                <option>Turquoise</option>
+                <option>Violet</option>
+                <option>Wheat</option>
+                <option>White</option>
+                <option>Whitesmoke</option>
+                <option>Yellow</option>
+                <option>YellowGreen</option>
+            </select>
+
+            <!-- Selecting the background color -->
+            <select class="bg-color select-20rem" title="Select a Background Color">
+                <option>--Background Color--</option>
+                <option>Default</option>
+                <option>AliceBlue</option>
+                <option>AntiqueWhite</option>
+                <option>Aqua</option>
+                <option>Aquamarine</option>
+                <option>Azure</option>
+                <option>Beige</option>
+                <option>Bisque</option>
+                <option>Black</option>
+                <option>BlanchedAlmond</option>
+                <option>Blue</option>
+                <option>BlueViolet</option>
+                <option>Brown</option>
+                <option>BurlyWood</option>
+                <option>CadetBlue</option>
+                <option>Chartreuse</option>
+                <option>Chocolate</option>
+                <option>Coral</option>
+                <option>CornflowerBlue</option>
+                <option>Cornsilk</option>
+                <option>Crimson</option>
+                <option>Cyan</option>
+                <option>DarkBlue</option>
+                <option>DarkCyan</option>
+                <option>DarkGoldenRod</option>
+                <option>DarkGray</option>
+                <option>DarkGrey</option>
+                <option>DarkGreen</option>
+                <option>GarkKhaki</option>
+                <option>DarkOliveGreen</option>
+                <option>DarkOrange</option>
+                <option>DarkOrchid</option>
+                <option>DarkRed</option>
+                <option>DarkSalmon</option>
+                <option>DarkSeaGreen</option>
+                <option>DarkSlateBlue</option>
+                <option>DarkSlateGray</option>
+                <option>DarkSlateGrey</option>
+                <option>DarkTurquoise</option>
+                <option>DarkViolet</option>
+                <option>DeepPink</option>
+                <option>DeepSkyBlue</option>
+                <option>DimGray</option>
+                <option>DimGrey</option>
+                <option>DodgerBlue</option>
+                <option>FireBrick</option>
+                <option>FloralWhite</option>
+                <option>ForestGreen</option>
+                <option>Fuchsia</option>
+                <option>Gainsboro</option>
+                <option>GhostWhite</option>
+                <option>Gold</option>
+                <option>goldenRod</option>
+                <option>Gray</option>
+                <option>Grey</option>
+                <option>Green</option>
+                <option>GreenYellow</option>
+                <option>HoneyDew</option>
+                <option>HotPink</option>
+                <option>IndianRed</option>
+                <option>Indigo</option>
+                <option>Ivory</option>
+                <option>Khaki</option>
+                <option>Lavender</option>
+                <option>LavenderBlush</option>
+                <option>LawnGreen</option>
+                <option>LemonChiffon</option>
+                <option>LightBlue</option>
+                <option>LightCoral</option>
+                <option>LightCyan</option>
+                <option>LightGoldenRodYellow</option>
+                <option>LightGray</option>
+                <option>LightGrey</option>
+                <option>LightGreen</option>
+                <option>LightPink</option>
+                <option>LightSalmon</option>
+                <option>LightSeaGreen</option>
+                <option>LightSkyBlue</option>
+                <option>LightSlateGray</option>
+                <option>LightSlateGrey</option>
+                <option>LightSteelBlue</option>
+                <option>LightYellow</option>
+                <option>Lime</option>
+                <option>LimeGreen</option>
+                <option>Linen</option>
+                <option>Magenta</option>
+                <option>Maroon</option>
+                <option>MediumBlue</option>
+                <option>MediumOrchid</option>
+                <option>MediumPurple</option>
+                <option>MediumSeaGreen</option>
+                <option>MediumSlateBlue</option>
+                <option>MediumSpringGreen</option>
+                <option>MediumTurquoise</option>
+                <option>MediumVioletRed</option>
+                <option>MidnightBlue</option>
+                <option>MintCream</option>
+                <option>MistyRose</option>
+                <option>Moccasin</option>
+                <option>NavajoWhite</option>
+                <option>Navy</option>
+                <option>OldLace</option>
+                <option>Olive</option>
+                <option>OliveDrab</option>
+                <option>Orange</option>
+                <option>OrangeRed</option>
+                <option>Orchid</option>
+                <option>PaleGoldenRod</option>
+                <option>PaleGreen</option>
+                <option>PaleTurquoise</option>
+                <option>PaleVioletRed</option>
+                <option>PapayaWhip</option>
+                <option>PeachPuff</option>
+                <option>Peru</option>
+                <option>Pink</option>
+                <option>Plum</option>
+                <option>PowderBlue</option>
+                <option>Purple</option>
+                <option>RebeccaPurple</option>
+                <option>Red</option>
+                <option>RosyBrown</option>
+                <option>RoyalBlue</option>
+                <option>SaddleBrown</option>
+                <option>Salmon</option>
+                <option>SandyBrown</option>
+                <option>SeaGreen</option>
+                <option>SeaShell</option>
+                <option>Sienna</option>
+                <option>Silver</option>
+                <option>SkyBlue</option>
+                <option>SlateBlue</option>
+                <option>SlateGray</option>
+                <option>SlateGrey</option>
+                <option>Snow</option>
+                <option>SpringGreen</option>
+                <option>SteelBlue</option>
+                <option>Tan</option>
+                <option>Teal</option>
+                <option>Tomato</option>
+                <option>Turquoise</option>
+                <option>Violet</option>
+                <option>Wheat</option>
+                <option>White</option>
+                <option>Whitesmoke</option>
+                <option>Yellow</option>
+                <option>YellowGreen</option>
+            </select>
+
+            <!-- Selecting the text border -->
+            <select class="text-border select-20rem" title="Select a border for the Text">
+                <option>--Text Border--</option>
+                <option>Default</option>
+                <option>AliceBlue</option>
+                <option>AntiqueWhite</option>
+                <option>Aqua</option>
+                <option>Aquamarine</option>
+                <option>Azure</option>
+                <option>Beige</option>
+                <option>Bisque</option>
+                <option>Black</option>
+                <option>BlanchedAlmond</option>
+                <option>Blue</option>
+                <option>BlueViolet</option>
+                <option>Brown</option>
+                <option>BurlyWood</option>
+                <option>CadetBlue</option>
+                <option>Chartreuse</option>
+                <option>Chocolate</option>
+                <option>Coral</option>
+                <option>CornflowerBlue</option>
+                <option>Cornsilk</option>
+                <option>Crimson</option>
+                <option>Cyan</option>
+                <option>DarkBlue</option>
+                <option>DarkCyan</option>
+                <option>DarkGoldenRod</option>
+                <option>DarkGray</option>
+                <option>DarkGrey</option>
+                <option>DarkGreen</option>
+                <option>GarkKhaki</option>
+                <option>DarkOliveGreen</option>
+                <option>DarkOrange</option>
+                <option>DarkOrchid</option>
+                <option>DarkRed</option>
+                <option>DarkSalmon</option>
+                <option>DarkSeaGreen</option>
+                <option>DarkSlateBlue</option>
+                <option>DarkSlateGray</option>
+                <option>DarkSlateGrey</option>
+                <option>DarkTurquoise</option>
+                <option>DarkViolet</option>
+                <option>DeepPink</option>
+                <option>DeepSkyBlue</option>
+                <option>DimGray</option>
+                <option>DimGrey</option>
+                <option>DodgerBlue</option>
+                <option>FireBrick</option>
+                <option>FloralWhite</option>
+                <option>ForestGreen</option>
+                <option>Fuchsia</option>
+                <option>Gainsboro</option>
+                <option>GhostWhite</option>
+                <option>Gold</option>
+                <option>goldenRod</option>
+                <option>Gray</option>
+                <option>Grey</option>
+                <option>Green</option>
+                <option>GreenYellow</option>
+                <option>HoneyDew</option>
+                <option>HotPink</option>
+                <option>IndianRed</option>
+                <option>Indigo</option>
+                <option>Ivory</option>
+                <option>Khaki</option>
+                <option>Lavender</option>
+                <option>LavenderBlush</option>
+                <option>LawnGreen</option>
+                <option>LemonChiffon</option>
+                <option>LightBlue</option>
+                <option>LightCoral</option>
+                <option>LightCyan</option>
+                <option>LightGoldenRodYellow</option>
+                <option>LightGray</option>
+                <option>LightGrey</option>
+                <option>LightGreen</option>
+                <option>LightPink</option>
+                <option>LightSalmon</option>
+                <option>LightSeaGreen</option>
+                <option>LightSkyBlue</option>
+                <option>LightSlateGray</option>
+                <option>LightSlateGrey</option>
+                <option>LightSteelBlue</option>
+                <option>LightYellow</option>
+                <option>Lime</option>
+                <option>LimeGreen</option>
+                <option>Linen</option>
+                <option>Magenta</option>
+                <option>Maroon</option>
+                <option>MediumBlue</option>
+                <option>MediumOrchid</option>
+                <option>MediumPurple</option>
+                <option>MediumSeaGreen</option>
+                <option>MediumSlateBlue</option>
+                <option>MediumSpringGreen</option>
+                <option>MediumTurquoise</option>
+                <option>MediumVioletRed</option>
+                <option>MidnightBlue</option>
+                <option>MintCream</option>
+                <option>MistyRose</option>
+                <option>Moccasin</option>
+                <option>NavajoWhite</option>
+                <option>Navy</option>
+                <option>OldLace</option>
+                <option>Olive</option>
+                <option>OliveDrab</option>
+                <option>Orange</option>
+                <option>OrangeRed</option>
+                <option>Orchid</option>
+                <option>PaleGoldenRod</option>
+                <option>PaleGreen</option>
+                <option>PaleTurquoise</option>
+                <option>PaleVioletRed</option>
+                <option>PapayaWhip</option>
+                <option>PeachPuff</option>
+                <option>Peru</option>
+                <option>Pink</option>
+                <option>Plum</option>
+                <option>PowderBlue</option>
+                <option>Purple</option>
+                <option>RebeccaPurple</option>
+                <option>Red</option>
+                <option>RosyBrown</option>
+                <option>RoyalBlue</option>
+                <option>SaddleBrown</option>
+                <option>Salmon</option>
+                <option>SandyBrown</option>
+                <option>SeaGreen</option>
+                <option>SeaShell</option>
+                <option>Sienna</option>
+                <option>Silver</option>
+                <option>SkyBlue</option>
+                <option>SlateBlue</option>
+                <option>SlateGray</option>
+                <option>SlateGrey</option>
+                <option>Snow</option>
+                <option>SpringGreen</option>
+                <option>SteelBlue</option>
+                <option>Tan</option>
+                <option>Teal</option>
+                <option>Tomato</option>
+                <option>Turquoise</option>
+                <option>Violet</option>
+                <option>Wheat</option>
+                <option>White</option>
+                <option>Whitesmoke</option>
+                <option>Yellow</option>
+                <option>YellowGreen</option>
+            </select>
+
+            <button class="btn btn-underline height-padding" title="Underline">U</button>
+            <button class="btn btn-italic height-padding" title="Italic">I</button>
+            <button class="btn btn-bold height-padding" title="Bold">B</button>
+            
+            <button class="btn btn-increase-letter-spacing height-padding" title="Increase Letter Spacing">&#8594</button>
+            <button class="btn btn-decrease-letter-spacing height-padding" title="Decrease Letter Spacing">&#8592</button>
+            <button class="btn btn-increase-line-height height-padding" title="Increase Line Height">&#8593</button>
+            <button class="btn btn-decrease-line-height height-padding" title="Decrease Line Height">&#8595</button>
+
+            <select class="text-cases select-20rem" title="Text Cases">
+                <option>Uppercase</option>
+                <option>Lowercase</option>
+                <option selected>Capitalize</option>
+            </select>
+
+            <!-- Text shadow -->
+            <select class="text-shadow select-20rem" title="Text Shadows">
+                <option>--Shadow--</option>
+                <option>None</option>
+                <option>Shadow-1</option>
+                <option>Shadow-2</option>
+                <option>Shadow-3</option>
+                <option>Shadow-4</option>
+                <option>Shadow-5</option>
+                <option>Shadow-6</option>
+                <option>Shadow-7</option>
+                <option>Shadow-8</option>
+            </select>
+
+        </div>
+
+        <!-- Text input box -->
+        <div class="text-container">
+            <input type="text" class="text-input" value="Please Stylize Me!">
+        </div>
+    </div>
+
+    <div class="code-container">
+        <div id="code"><p class="code-font">font-family: Times New Roman;</p><p class="code-font-size">font-size: 50px;</p><p class="code-color">color: Black;</p><p class="code-background-color">background-color: white;</p><p class="code-text-border">text-shadow: none;</p><p class="code-underline">text-decoration: none;</p><p class="code-italic">font-style: none;</p><p class="code-bold">font-weight: normal;</p><p class="code-letter-spacing">letter-spacing: 0;</p><p class="code-line-height">line-height: 1;</p><p class="code-text-case">text-transform: Capitalize;</p><p class="code-text-shadow">text-shadow: none;</p></div>
+
+        <!-- Copy Code Button -->
+        <button class="copy-code-btn" onclick="copyCode('#code');">Copy Code</button>
+    </div>
+
+    <div class="demo">Hello World</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
